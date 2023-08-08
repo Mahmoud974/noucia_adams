@@ -1,7 +1,11 @@
 import Newsletter from "./Newsletter"
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 const SectionHome = () => {
-  
+useEffect(()=>{
+  AOS.init()
+}, [])
 
   const ReadMore = () =>{
     alert("ok çafunction")
@@ -11,7 +15,7 @@ const SectionHome = () => {
   return (
    <div className="flex flex-col justify-center mx-auto">
      <div className="md:mt-24 mt-10 flex md:justify-around md:flex-row flex-col-reverse justify-items-center md:space-x-20 mx-auto" >
-      <div className="flex flex-col justify-center md:w-1/2 md:mt-0 mt-8 w-72  text-center md:text-left" >
+      <div className="flex flex-col justify-center md:w-1/2 md:mt-0 mt-8 w-72  text-center md:text-left" data-aos='fade-right'>
       <h1 className="font-bold text-4xl font-['Judson','serif'] ">
         Choisir d’écrire – <br/>
       Devenir auteur.e indépendant.e 
@@ -28,12 +32,12 @@ const SectionHome = () => {
      <button className="bg-black text-amber-300 w-24 rounded-full px-2 py-2 md:mt-2 font-bold hover:bg-amber-300 hover:text-black mx-auto md:mx-0 mt-6">Ready !</button>
      
       </div>
-      <div >
+      <div data-aos='fade-left'>
         <img src="src/assets/profil_adams_noucia.png" alt="profil auteur noucia adams" className="md:w-72 w-40 mx-auto md:mx-0 "/>
       </div>
 
     </div>
-    <div className="my-12 mx-6">
+    <div className="my-12 mx-6" data-aos='fade-up'>
       <ul className="font-['Judson','serif'] flex items-center md:flex-row flex-col md:space-y-0 space-y-7 md:justify-between  mt-6 mx-auto ">
       <li className="text-center">
         <img src="src/assets/icon1.png" alt="" className="mx-auto"/>

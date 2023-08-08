@@ -1,9 +1,12 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 const MyBooks = () => {
- 
+ useEffect(()=>{
+  AOS.init()
+},[])
 
   return (
     <div >
@@ -11,7 +14,7 @@ const MyBooks = () => {
       <div className="rounded-full md:bg-amber-400 md:w-[50em] h-[50em] absolute z-4 -mt-[15em] -ml-40 " ></div>
         <Navbar/>
            {/* Monster's claw left */}
-     <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute md:mt-28 mt-3 w-20 md:w-44'/>
+     <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute md:mt-28 mt-3 w-20 md:w-44' data-aos='fade-left'/>
      {/* Monster's claw right */}
     <img src="src/assets/griffe2.png" alt="Monster's claw rigth" className='absolute md:mt-[38rem] mt-[63rem] w-20 md:w-44 flex right-0'/>
        <div className="flex justify-center mx-auto">
@@ -20,9 +23,9 @@ const MyBooks = () => {
        
         <div className="flex flex-col md:flex-row  md:my-24 my-12 " >
           <div>
-          <img src="src/assets/book_tablet.png" alt="Noucia Adam's book" className="md:w-[28rem] md:h-[28.5rem] w-[14rem] mx-auto md:mx-none "   />
+          <img src="src/assets/book_tablet.png" alt="Noucia Adam's book" className="md:w-[28rem] md:h-[28.5rem] w-[14rem] mx-auto md:mx-none "  data-aos='fade-right' />
           </div>
-           <div className="md:ml-12 md:mt-0 mt-8  text-center">
+           <div className="md:ml-12 md:mt-0 mt-8  text-center" data-aos='fade-left'>
              <h1 className="font-bold text-3xl font-['Judson','serif']">La magie des rencontres<br/>
             qui sauvent</h1>
             <p className=" md:w-[36em] mx-auto px-4 md:px-0 w-72 mt-4">« Il arrive parfois que la vie soit aussi incroyable que la fiction. »
@@ -36,12 +39,12 @@ Trois parcours. Une amitié exceptionnelle. La vie s’accélère, entre révél
       </div>
       </div>
     
-<iframe className="mx-auto md:w-[762px] md:h-[515px] w-[262px] h-[515px]"  src="https://www.youtube.com/embed/iK_UIkswhAs" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" ></iframe>
+<iframe className="mx-auto md:w-[762px] md:h-[515px] w-[262px] h-[515px]" data-aos='fade-up'  src="https://www.youtube.com/embed/iK_UIkswhAs" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" ></iframe>
 
 </div>
       </div>
       <h2 className="font-bold text-3xl font-['Judson','serif'] text-center mt-12">On en parle sur le Net</h2>
-<div className="container mx-auto space-y-12 mb-8">
+<div className="container mx-auto space-y-12 mb-8" data-aos='fade-up'>
    <div className="flex justify-center mt-6">
  <div className="w-2  bg-amber-400 md:flex hidden"></div>
     <div className="md:ml-4 mx-4 flex flex-col ">
@@ -51,7 +54,7 @@ Trois parcours. Une amitié exceptionnelle. La vie s’accélère, entre révél
 <img src="src/assets/start.png" alt="" className='absolute ml-[80rem] -mt-[69rem] md:flex hidden'/>
    </div>
 
-    <div className="flex justify-center md:mb-0 ">
+    <div className="flex justify-center md:mb-0 " data-aos='fade-up'>
  <div className="w-2  bg-amber-400 md:flex hidden "></div>
     <div className="md:ml-4 mx-4 flex flex-col">
         <p className="md:w-[36em] md:text-left text-center">« Noucia est une magicienne. Penchée au-dessus de son chaudron, elle mélange : trois femmes singulières, une bonne rasade d’exotisme, une branche tressée d’amitié, deux ou trois pincées d’actions bien corsées, un soupçon de magie. Puis elle laisse concocter dans une infusion de bienveillance. Le tout pour obtenir un moment merveilleux de lecture. »<br/>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import 'aos/dist/aos.css';
 
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
@@ -10,14 +10,6 @@ import Tickets from './pages/Tickets.tsx'
 import About from './pages/About.tsx'
 import NewsletterPage from './pages/NewsletterPage.tsx'
 import PageError from './pages/PageError.tsx'
-
-
-
-
-
-
-
-
 
 
 const router = createBrowserRouter([

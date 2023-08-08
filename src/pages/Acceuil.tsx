@@ -3,9 +3,13 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Offer from '../components/Offer'
 import SlidingInterval from "../components/SlidingInterval"
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 const Acceuil = () => {
-
+useEffect(()=>{
+  AOS.init()
+}, [])
 return (
      <div>
     {/* yellow circle  */}
@@ -15,9 +19,9 @@ return (
       {/* Caroussel */}
     <SlidingInterval/>
      {/* Monster's claw left */}
-    <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute md:mt-28 mt-12 w-20 md:w-44'/>
+    <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute md:mt-28 mt-12 w-20 md:w-44' data-aos='fade-right'/>
 {/* Monster's claw right */}
-    <img src="src/assets/griffe2.png" alt="Monster's claw rigth" className='absolute md:mt-[38rem] mt-[43rem] w-20 md:w-44 flex right-0'/>
+    <img src="src/assets/griffe2.png" alt="Monster's claw rigth" className='absolute md:mt-[38rem] mt-[43rem] w-20 md:w-44 flex right-0' data-aos='fade-left'/>
     <div className="flex items-center justify-center  mx-auto">
     <div className=" relative ">
     
