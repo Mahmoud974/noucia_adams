@@ -8,7 +8,7 @@ const Footer = () => {
         <ul className="flex md:flex-row flex-col text-center mx-auto justify-evenly space-y-2">
 <li className="flex flex-col ">
     <p className="font-bold"></p>
-<form action="" className=''>
+<form action="" className='mx-auto'>
   <label htmlFor="newsletter" className="flex font-bold">Inscrit toi au newsletter<br/>
 dès maintenant, pour retrouver toutes<br/>
 mes nouveautés</label>

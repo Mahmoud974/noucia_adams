@@ -1,5 +1,4 @@
 import Newsletter from "./Newsletter"
-import {motion} from "framer-motion"
 
 const SectionHome = () => {
   
@@ -12,13 +11,12 @@ const SectionHome = () => {
   return (
    <div className="flex flex-col justify-center mx-auto">
      <div className="md:mt-24 mt-10 flex md:justify-around md:flex-row flex-col-reverse justify-items-center md:space-x-20 mx-auto" >
-      <div className="flex flex-col justify-center md:w-1/2 md:mt-0 mt-8 w-72 text-center md:text-left" >
-      <motion.h1 className="font-bold text-4xl font-['Judson','serif']"
-     
-      >Choisir d’écrire – <br/>
+      <div className="flex flex-col justify-center md:w-1/2 md:mt-0 mt-8 w-72  text-center md:text-left" >
+      <h1 className="font-bold text-4xl font-['Judson','serif'] ">
+        Choisir d’écrire – <br/>
       Devenir auteur.e indépendant.e 
-      & s’épanouir</motion.h1>
-      <p className="mt-4 md:w-[36em] ">Moi, c'est Noucia Adams, et ce qui m'anime profondément dans la vie, ce sont les mots. Les mots, ces petites graines 
+      & s’épanouir</h1>
+      <p className="mt-4 md:w-[36em]">Moi, c'est Noucia Adams, et ce qui m'anime profondément dans la vie, ce sont les mots. Les mots, ces petites graines 
       sémantiques qui prennent racine dans mon esprit, reflètent ma sensibilité et mon âme tout en étant chargés de couleurs, <span className="font-bold italic cursor-pointer hover:text-orange-400" onClick={() => ReadMore()}> Lire plus</span></p>
       {/* de vie et d'espoir.
       Depuis mon plus jeune âge, j'ai été captivée par le pouvoir des mots. Ils m'enveloppent comme une toile d'araignée, tissant des liens subtils entre les idées, 
