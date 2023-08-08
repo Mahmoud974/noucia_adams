@@ -1,18 +1,19 @@
 import { MdFacebook } from 'react-icons/md';
 import { GrInstagram } from 'react-icons/gr';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white mt-12 mx-auto py-24">
-        <ul className="flex justify-evenly space-y-2">
+    <div className="bg-black text-white md:mt-12  mx-auto md:py-24 py-12 px-12 md:px-0">
+        <ul className="flex md:flex-row flex-col text-center mx-auto justify-evenly space-y-2">
 <li className="flex flex-col ">
-    <p className="font-bold">Inscrit toi au newsletter<br/>
+    <p className="font-bold"></p>
+<form action="" className=''>
+  <label htmlFor="newsletter" className="flex font-bold">Inscrit toi au newsletter<br/>
 dès maintenant, pour retrouver toutes<br/>
-mes nouveautés</p>
-<form action="">
-  <input type="search" name="" id="" className="bg-black border-amber-400 border-2 rounded-lg my-2"/>
-<button className="bg-amber-400 w-24 rounded-full px-2 mt-2">Validez</button>
+mes nouveautés</label>
+  <input type="search" name="newsletter" id="newsletter" className="bg-amber-400 border-amber-400 border-2 rounded-lg my-2"/>
+<button className="w-24 rounded-full px-2 mt-2">Validez</button>
 </form>
 </li>
 <li>
@@ -43,17 +44,17 @@ mes nouveautés</p>
                 <div>
                     <p className="font-bold">Rejoignez-moi sur<br/>
                     mes réseaux sociaux</p>
-                    <ul className='flex text-4xl space-x-2 text-amber-400 my-4'>
-                        <li><a href=""><MdFacebook/></a></li>
-                        <li><a href="">
+                    <ul className='flex text-4xl space-x-2 text-amber-400 my-4 justify-center'>
+                        <li><NavLink to="https://www.facebook.com/Nouciaadams.Auteure/" ><MdFacebook/></NavLink></li>
+                        <li><NavLink to="https://www.instagram.com/choisirdecrire_by_noucia" role='link'>
                             <GrInstagram/>
-                            </a></li>
+                            </NavLink></li>
                     </ul>
 
                     <p>© 2023 Copyright Noucia Adams</p>
                     <p>
-                        <a href="/mentionlegales">Mentions légales - </a>
-                        <a href="cgv"> CGV</a>
+                        <a href="/mentionlegales"  role='link'>Mentions légales - </a>
+                        <a href="/cgv" role='link' > CGV</a>
                     </p>
                     <p>
                         Designed by Mahmoud Moussa 

@@ -6,24 +6,24 @@ const Newsletter = () => {
 
  
   return (
-    <div className=" flex mx-auto items-center mt-12   ">
-      <div className="flex ">
+    <div className=" flex mx-auto  items-center md:mt-12 mt-6   ">
+      <div className="flex md:flex-row flex-col ">
 
    
           <div className=" ">
               <div className="  ">
-                <img src="src/assets/tea.webp" alt="" className="w-[23rem] -ml-12 saturate-50" />
+                <img src="src/assets/tea.webp" alt="" className="md:w-[23rem] w-48 md:-ml-12 mx-auto saturate-50" />
               </div>
             </div>
         <div>
-            <div className="w-[32em] -mr-12">
-                <h2 className="font-bold text-4xl font-['Judson','serif']">Ce que je propose sur ce site?</h2>
-                <p className="mt-2">Mes billets créatifs vous embarquent dans mon univers, composé de poèmes et de textes courts sur les sujets qui me touchent. C’est mon laboratoire d’écriture poétique, mon canal d’expression libre, mes moments de respiration créatifs en dehors d’un projet de roman et du cadre contraignant des réseaux sociaux. La présentation de mes livres avec une panoplie d’informations : liens pour passer commande, les avis de lecture, du contenu pour mieux appréhender l’atmosphère, l’environnement, les thèmes abordés...Lire plus</p>
-            <div className="bg-amber-400 p-4 text-white mt-8 rounded-br-2xl  shadow-inner">
+            <div className="md:w-[32em] w-62 md:text-left text-center md:-mr-12 md:mt-0 mt-6 mx:px-0 px-3">
+                <h4 className="font-bold text-4xl font-['Judson','serif']">Ce que je propose sur ce site?</h4>
+                <p className="mt-2 mb-2">Mes billets créatifs vous embarquent dans mon univers, composé de poèmes et de textes courts sur les sujets qui me touchent. C’est mon laboratoire d’écriture poétique, mon canal d’expression libre, mes moments de respiration créatifs en dehors d’un projet de roman et du cadre contraignant des réseaux sociaux. La présentation de mes livres avec une panoplie d’informations : liens pour passer commande, les avis de lecture, du contenu pour mieux appréhender l’atmosphère...<span className="font-bold">Lire plus</span></p>
+            <div className="bg-amber-400 md:p-4 p-2  text-black md:mt-0 mt-8 md:rounded-br-2xl  md:shadow-inner ">
                 <p>Une newsletter le dernier dimanche de chaque mois:</p>
                 
-                <ul className="list-disc ml-12">
-                    <li>Mes actualités (salons, évènements…)</li>
+                <ul className="md:list-disc list-none md:ml-12  text-black font-bold">
+                    <li className="text-black font-bold">Mes actualités (salons, évènements…)</li>
                     <li>Des nouvelles de mes projets créatifs</li>
                     <li>Mon cheminement en tant qu’artiste auteure indépendante</li>
                     <li>Les réponses à toutes vos questions</li>

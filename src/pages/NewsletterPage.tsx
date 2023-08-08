@@ -8,28 +8,30 @@ const NewsletterPage = () => {
    
           <div >
         
-        <div className="rounded-full  bg-amber-400 w-[50em] h-[50em] absolute z-4 -mt-[15em] -ml-40"></div>
-        <Navbar/>
+      <div className="rounded-full bg-amber-400 md:w-[50em] md:h-[50em]  absolute z-4 -mt-[15em] -ml-40"></div>
+       <Navbar/>
 
-       <div className="flex justify-center text-center mx-auto mt-16">
+       <div className="flex justify-center text-center mx-auto md:mt-16 mt-6">
          <div className=" relative ">
       
         <div className="" >
            <div className="">
-             <h1 className="font-bold text-5xl font-['Judson','serif'] mb-6">Ma Newletter</h1>
+             <h1 className="font-bold md:text-6xl text-4xl font-['Judson','serif'] mb-6">Ma Newletter</h1>
              </div>
 
 
-             <div className="bg-amber-400 drop-shadow-2xl h-[37em] w-[30em] rounded-xl ">
+             <div className="bg-amber-400 drop-shadow-2xl md:h-[44em] pb-12 md:w-[30em]  md:rounded-xl ">
               <form action="">
               <div className="flex flex-col mx-12 space-y-6 pt-12">
-                  <input type="text" name="" id="" placeholder=" Jean Dupont"  className="py-4 bg-amber-400 border border-black text-black" />
-                <input type="email" name="" id="" placeholder=" Email" className="py-4 bg-amber-400 border border-black text-black"/>
-              <input type="submit" value="Je m'inscris avec plaisir !" className="bg-black text-white w-3/4 p-2 mx-auto rounded-md" />
+                <label htmlFor="nom"></label>
+                  <input type="text" name="nom" id="nom"  className="py-4 bg-amber-400 border border-black text-black" />
+                  <label htmlFor="mail"></label>
+                <input type="email" name="mail" id="mail"  className="py-4 bg-amber-400 border border-black text-black"/>
+              <input type="submit" value="Je m'inscris avec plaisir !" className="bg-black text-white md:w-3/4 p-2 mx-auto rounded-md " />
               </div>
                 </form>
 
-              <div className="text-white mt-5 px-2">
+              <div className="font-bold mt-5 px-2">
                 <p>
                   Je vous raconte les tribulations de ma vie d'auteure indépendante le dernier dimanche de chaque mois! </p>
 
@@ -55,7 +57,7 @@ const NewsletterPage = () => {
              </div>
              </div>
              </div>
-             <div className="my-24">
+             <div className="md:my-24 my-12 ">
               <Offer/>
              </div>
              <Footer/>
