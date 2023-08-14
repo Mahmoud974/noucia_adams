@@ -1,6 +1,7 @@
 import { Carousel } from 'flowbite-react';
 
 const SlidingInterval =() => {
+  
   return (
     <Carousel slideInterval={5000} className='md:h-[46rem] h-72 '>
       <img
@@ -25,6 +26,7 @@ const SlidingInterval =() => {
       />
     </Carousel>
   )
+ 
 }
 
 export default SlidingInterval
