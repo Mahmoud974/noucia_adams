@@ -3,7 +3,7 @@ import { Carousel } from 'flowbite-react';
 const SlidingInterval =() => {
   
   return (
-    <Carousel slideInterval={5000} className='md:h-[46rem] h-72 '>
+    <Carousel slideInterval={5000} className='md:h-[36rem] h-72 '>
       <img
         alt="bg_caroussel_sea"
         src="https://flowbite.com/docs/images/carousel/carousel-1.svg"

@@ -8,6 +8,8 @@ import { useEffect } from 'react';
 
 
 const Acceuil = () => {
+ 
+
   useEffect(()=>{
     AOS.init()
   }, [])
@@ -20,9 +22,9 @@ const Acceuil = () => {
       {/* Caroussel */}
     <SlidingInterval/>
      {/* Monster's claw left */}
-    <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute xl:mt-28 md:w-36 xl:w-52 md:mt-[28rem] mt-12 w-20 2xl:w-44' data-aos='fade-right'/>
+    <img src="src/assets/griffes.png" alt="Monster's claw left" className='absolute xl:mt-[66rem] md:w-36 xl:w-52 md:mt-[28rem] mt-12 w-20 2xl:w-44' data-aos='fade-right'/>
 {/* Monster's claw right */}
-    <img src="src/assets/griffe2.png" alt="Monster's claw rigth" className='absolute xl:mt-[38rem] mt-[43rem] md:w-36 xl:w-52 w-20 2xl:w-44 flex right-0' data-aos='fade-left'/>
+    <img src="src/assets/griffe2.png" alt="Monster's claw rigth" className='absolute xl:mt-[48rem] mt-[43rem] md:w-36 xl:w-52 w-20 2xl:w-44 flex right-0' data-aos='fade-left'/>
     
     <div className="flex items-center justify-center  mx-auto">
     <div className=" relative ">

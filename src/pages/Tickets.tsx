@@ -20,7 +20,7 @@ const Tickets = () => {
     </div>
 
 {/* Card */}
-<div className="container md:mx-auto md:mt-12 mt-8 grid md:grid-cols-3 place-content-center gap-4">
+<div className="container  md:mx-auto md:mt-12 mt-8 grid md:grid-cols-3 place-content-center gap-4">
 <Card/>
 
 </div>
