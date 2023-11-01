@@ -10,10 +10,10 @@ return (
     <div className=" flex mx-auto  items-center xl:mt-12 mt-6   ">
       <div className="flex xl:flex-row flex-col ">
 
-   
+
           <div className=" " data-aos='fade-right'>
               <div className="  ">
-                <img src="src/assets/tea.webp" alt="" className="xl:w-[23rem] md:w-[20rem] w-48 xl:-ml-12 mx-auto saturate-50" />
+                <img src="img/tea.webp" alt="" className="xl:w-[23rem] md:w-[20rem] w-48 xl:-ml-12 mx-auto saturate-50" />
               </div>
             </div>
         <div>

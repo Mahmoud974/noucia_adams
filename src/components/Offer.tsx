@@ -6,7 +6,7 @@ const Offer = () => {
   return (
     <div className="bg-amber-400 xl:h-44 h-24 flex xl:flex-row xl:justify-center xl:space-x-14 flex-col ">
         <div className='' >
-             <img src="src/assets/book_tablet.webp" alt="" className="xl:w-[18rem] w-44 h-94 -mt-12 xl:flex hidden"   />
+             <img src="img/book_tablet.webp" alt="" className="xl:w-[18rem] w-44 h-94 -mt-12 xl:flex hidden"   />
             
         </div>
         <div className="text-black xl:text-left text-center mt-2" >

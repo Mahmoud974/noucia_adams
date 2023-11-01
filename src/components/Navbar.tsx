@@ -17,7 +17,7 @@ const Navbar = () => {
   >
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" className="flex items-center">
-        <img src="src/assets/logo_noucia_adams_auteure.webp" alt="photo of Noucia Adams" className="md:w-44 w-24 flex mx-auto " />
+        <img src="img/logo_noucia_adams_auteure.webp" alt="photo of Noucia Adams" className="md:w-44 w-24 flex mx-auto " />
        
     </a>
     <button data-collapse-toggle="navbar-multi-level" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">

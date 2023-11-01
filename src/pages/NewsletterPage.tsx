@@ -46,7 +46,7 @@ const NewsletterPage = () => {
             <p>☕ 😉 Pour créer un lien authentique entre vous et moi !</p>
 
             <div className="mt-2">
-              <img src="src/assets/logo_noucia_adams_auteure.webp" alt="" className="w-36  flex mx-auto " />
+              <img src="img/logo_noucia_adams_auteure.webp" alt="" className="w-36  flex mx-auto " />
             </div>
              </div>
              </div>
