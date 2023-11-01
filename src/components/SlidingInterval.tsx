@@ -6,24 +6,17 @@ const SlidingInterval =() => {
     <Carousel slideInterval={5000} className='md:h-[36rem] h-72 '>
       <img
         alt="bg_caroussel_sea"
-        src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+        src="./src/assets/quality.webp"
       />
       <img
         alt="bg_caroussel_terre"
-        src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+        src="./src/assets/kid.webp"
       />
       <img
         alt="bg_caroussel_fire"
-        src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+        src="./src/assets/tree.webp"
       />
-      <img
-        alt="bg_caroussel_water"
-        src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-      />
-      <img
-        alt="bg_caroussel"
-        src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-      />
+     
     </Carousel>
   )
  

@@ -19,7 +19,7 @@ return (
         <div>
             <div className="xl:w-[32em] w-62 xl:text-left text-center xl:-mr-12 xl:mt-0 mt-6 md:px-0 px-3" data-aos='fade-left'>
                 <h4 className="font-bold text-4xl font-['Judson','serif']">Ce que je propose sur ce site?</h4>
-                <p className="mt-2 mb-2 md:px-8">Mes billets créatifs vous embarquent dans mon univers, composé de poèmes et de textes courts sur les sujets qui me touchent. C’est mon laboratoire d’écriture poétique, mon canal d’expression libre, mes moments de respiration créatifs en dehors d’un projet de roman et du cadre contraignant des réseaux sociaux. La présentation de mes livres avec une panoplie d’informations : liens pour passer commande, les avis de lecture, du contenu pour mieux appréhender l’atmosphère...<span className="font-bold">Lire plus</span></p>
+                <p className="mt-2 mb-2 xl:px-0 md:px-8">Mes billets créatifs vous embarquent dans mon univers, composé de poèmes et de textes courts sur les sujets qui me touchent. C’est mon laboratoire d’écriture poétique, mon canal d’expression libre, mes moments de respiration créatifs en dehors d’un projet de roman et du cadre contraignant des réseaux sociaux. La présentation de mes livres avec une panoplie d’informations : liens pour passer commande, les avis de lecture, du contenu pour mieux appréhender l’atmosphère...<span className="font-bold">Lire plus</span></p>
             <div className="bg-amber-400 xl:p-4 p-2  text-black xl:mt-0 mt-8 xl:rounded-br-2xl  xl:shadow-inner ">
                 <p>Une newsletter le dernier dimanche de chaque mois:</p>
                 

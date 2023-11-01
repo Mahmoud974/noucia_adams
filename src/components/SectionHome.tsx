@@ -37,7 +37,7 @@ setOpen(!open)
      
       </div>
       <div data-aos='fade-left'>
-        <img src="src/assets/profil_adams_noucia.png" alt="profil auteur noucia adams" className="xl:w-72 w-40 mx-auto xl:mx-0 "/>
+        <img src="src/assets/profil_adams_noucia.webp" alt="profil auteur noucia adams" className="xl:w-72 w-40 mx-auto xl:mx-0 "/>
       </div>
     </div> : 
     
@@ -62,7 +62,7 @@ setOpen(!open)
      
       </div>
       <div data-aos='fade-left'>
-        <img src="src/assets/profil_adams_noucia.png" alt="profil auteur noucia adams" className="xl:w-72 w-40 mx-auto xl:mx-0 "/>
+        <img src="src/assets/profil_adams_noucia.webp" alt="profil auteur noucia adams" className="xl:w-72 w-40 mx-auto xl:mx-0 "/>
       </div>
     </div>
    }
@@ -70,7 +70,7 @@ setOpen(!open)
     <div className="my-12 mx-6 " data-aos='fade-up'>
       <ul className="font-['Judson','serif'] flex md:flex-wrap items-center xl:flex-row flex-col xl:space-y-0 space-y-7 xl:justify-between  mt-6 mx-auto ">
       <li className="text-center">
-        <img src="src/assets/icon1.png" alt="" className="mx-auto"/>
+        <img src="src/assets/icon1.svg" alt="" className="mx-auto"/>
         <h2 className="text-6xl"> +
         <CountUp end={2000} duration={2}/>
 
@@ -79,17 +79,17 @@ setOpen(!open)
         <h3 className="text-2xl">Confidence</h3>
       </li>
       <li className="text-center">
-        <img src="src/assets/icon2.png" alt="" className="mx-auto"/>
+        <img src="src/assets/icon3.svg" alt="" className="w-[9rem] mx-auto"/>
         <h2 className="text-6xl"> +<CountUp end={75} duration={2}/>k</h2>
         <h3 className="text-2xl">Abonné sur insta</h3>
       </li>
       <li className="text-center">
-        <img src="src/assets/icon3.png " alt="" className="w-[8rem] mx-auto"/>
+        <img src="src/assets/icon2.svg " alt="" className=" mx-auto"/>
         <h2 className="text-6xl"> +<CountUp end={885} duration={2}/> M</h2>
         <h3 className="text-2xl">Téléchargement</h3>
       </li>
       <li className="text-center">
-        <img src="src/assets/icon4.png" alt="" className="mx-auto" />
+        <img src="src/assets/icon4.svg" alt="" className="w-[9.6rem] mx-auto" />
         <h2 className="text-6xl"> +<CountUp end={700} duration={2}/></h2>
         <h3 className="text-2xl">Entrepreuneur formés</h3>
       </li>

@@ -12,7 +12,7 @@ const Footer = () => {
   <label htmlFor="newsletter" className="flex font-bold">Inscrit toi au newsletter<br/>
 dès maintenant, pour retrouver toutes<br/>
 mes nouveautés</label>
-  <input type="search" name="newsletter" id="newsletter" className="bg-amber-400 border-amber-400 border-2 rounded-lg my-2"/>
+  <input type="search" name="newsletter" id="newsletter" className="bg-white text-black border-2 rounded-lg my-2"/>
 <button className="w-24 rounded-full px-2 mt-2">Validez</button>
 </form>
 </li>
