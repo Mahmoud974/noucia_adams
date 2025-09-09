@@ -27,7 +27,7 @@ export default function Navbar() {
           </li>
           <li className="relative group cursor-pointer">
             <span className="group-hover:after:bg-yellow-500 after:absolute after:h-2 after:w-full after:-bottom-2 after:left-0 after:transition-transform after:duration-300 after:scale-x-0 group-hover:after:scale-x-100">
-              À PROPOS DE MOI
+              ABOUT
             </span>
           </li>
           <li className="relative group cursor-pointer">
